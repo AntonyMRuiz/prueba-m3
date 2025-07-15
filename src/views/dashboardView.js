@@ -1,9 +1,11 @@
 export function dashboardRender() {
     return `
-        home
+        dashboard
     `
 }
 
 export function dashboardSevice() {
-    location.hash = "/home"
+    location.hash = "/dashboard";
+
+    document.body.classList = "bg-light";
 }

@@ -37,6 +37,7 @@ export function singInRender() {
 }
 
 export function singInService() {
+    document.body.classList = "bg-light";
     const singInForm = document.querySelector("form");
 
     singInForm.addEventListener("submit", async (event) => {

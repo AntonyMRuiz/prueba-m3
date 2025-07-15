@@ -48,7 +48,13 @@
   font-style: italic;
 }
 
-.btn-purple {
+.btn-purple,
+.btn-purple-white:hover {
     background-color: #7732fe;
     color: #fefeff;
+}
+
+.btn-purple-white {
+    background-color: none;
+    color: #000;
 }
